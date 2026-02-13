@@ -1,0 +1,53 @@
+            h1 {
+                color:green;
+                border-style: solid;
+                border-width: 1px;
+                border-color:red;
+                font-size: 300%;
+            }
+            h2 {
+                color:orange;
+                text-decoration: underline;
+            }
+            h3{
+                color:red;
+                text-decoration: underline;
+            }
+            body {
+                background-color: aqua;
+            }
+            p {
+                color:purple;
+            }
+            .brown-text {
+                color: brown;
+            }
+            .important {
+                font-weight: bold;
+                font-style: italic;
+            }
+            .important:hover {
+                background-color: pink;
+            }
+            a[href="https://www.pce.uw.edu/certificates/front-end-development-with-html-css-and-javascript"] {
+                background-color:greenyellow;
+                font-style: oblique;
+            }
+            a[href="https://www.pce.uw.edu/certificates/full-stack-development-with-javascript"] {
+                background-color: aquamarine;
+                font-style: oblique;
+            }
+            h2::first-letter {font-size: 150%;}
+            footer strong:hover {
+                color:green;
+                font-style: italic;
+                text-decoration: underline;
+                font-size: 150%;
+            }
+            ul a {
+                text-decoration: none;
+                color: green;
+            }
+            ul :visited {
+                color:orange;
+            }
